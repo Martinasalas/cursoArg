@@ -22,13 +22,21 @@ nav {
 }
 #perfil{
     margin: 1%;
+    padding: 5%;
     border-radius: 10px;
     grid-column: 2/7;
     grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Major Mono Display', monospace;
+    font-size: xx-large;
     background-color: #10133a;
     border-style: solid;
     border-color: #f5f0d9;
-    color: #F2F2F2;
+    color: #f68741;
+}
+#perfil h2 {
+    margin: 0%;
 }
 #ic1 {
     margin: 1%;
@@ -62,6 +70,12 @@ nav {
     grid-column: 5/9;
     grid-row: 2/3;
     background-color: #f5d64e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Major Mono Display', monospace;
+    font-size: xx-large;
+    color: #ef0195;
 }
 #ic3{
     margin: 1%;
@@ -94,5 +108,13 @@ nav {
     border-radius: 10px;
     grid-column: 7/12;
     grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Major Mono Display', monospace;
+    font-size: xx-large;
     background-color: #10133a;
+    border-style: solid;
+    border-color: #f5f0d9;
+    color: #f68741;
 }
